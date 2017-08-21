@@ -5,13 +5,12 @@ import './App.css';
 
 class App extends Component {
   render() {
-    
     return (
       <div className="App">
+        <div className="horsie-image">
           <h2>To Ride Or Not To Ride...That Is Equestrian</h2>
-
-          <TrailList />
-        
+        </div>
+        <TrailList />
       </div>
     );
   }

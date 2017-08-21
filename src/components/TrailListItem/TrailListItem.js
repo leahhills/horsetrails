@@ -12,9 +12,9 @@ class TrailListItem extends Component {
     render(){
         var listItem = (
             <li className="trailListItem">
-            <p>{this.props.trail.name}</p>
-            <p>{this.props.trail.description}</p>
-            <p>{this.props.trail.location}</p>
+            <p>Trail Name: {this.props.trail.name}</p>
+            <p>Trail Description: {this.props.trail.description}</p>
+            <p>Trail Location: {this.props.trail.location}</p>
             </li>
         )
         return listItem;

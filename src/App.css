@@ -25,14 +25,32 @@
 }   */
 
 .trailListItem {
-  border: 1px solid #454545;
+  align-items: center;
+  border: 1px solid black;
   list-style: none;
-  width: 300px;
+  margin: 0px auto 10px auto;
+  background: pink;
+  width: 60%;
 }
 
 .trailList {
-  margin: 0 auto;
+  margin: 0 ;
   height: auto;
   padding: 10px;
   position: relative;
+}
+
+body {
+
+  background-image: url("./img/horsie.jpg");
+  
+
+}
+
+.trailSearch {
+
+}
+
+.smallMargin {
+  margin: 5px;
 }
